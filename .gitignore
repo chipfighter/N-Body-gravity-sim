@@ -1,0 +1,16 @@
+# CMake build directories
+cpp_engine/build/
+cpp_engine/out/
+CMakeCache.txt
+CMakeFiles
+
+# Compiled dynammic libraries 
+*.dll
+*.so
+*.dylib
+*.exe
+
+#Python cache
+__pycache__/
+*.pyc
+.venv/
