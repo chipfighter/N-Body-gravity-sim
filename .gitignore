@@ -10,7 +10,9 @@ CMakeFiles
 *.dylib
 *.exe
 
-#Python cache
+# Python cache
 __pycache__/
 *.pyc
 .venv/
+
+# Some docs
