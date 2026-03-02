@@ -4,7 +4,7 @@ cpp_engine/out/
 CMakeCache.txt
 CMakeFiles
 
-# Compiled dynammic libraries 
+# Compiled dynamic libraries 
 *.dll
 *.so
 *.dylib
@@ -14,5 +14,8 @@ CMakeFiles
 __pycache__/
 *.pyc
 .venv/
+
+# Jetbrains local setting data
+*.idea
 
 # Some docs

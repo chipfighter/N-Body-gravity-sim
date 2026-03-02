@@ -20,4 +20,4 @@ FetchContent_MakeAvailable(pybind11)
 
 # Compile the C++ code into a Python extension module (.pyd)
 # Note: "nbody_core" is the final name
-pybind11_add_module(nbody_core src/physics.cpp)
+pybind11_add_module(nbody_core src/Universe.cpp src/bindings.cpp)
