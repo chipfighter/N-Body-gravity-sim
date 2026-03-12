@@ -7,6 +7,11 @@ void Universe::add_star(double x, double y, double z, double vx, double vy, doub
     stars.push_back({x, y, z, vx, vy, vz, mass});
 }
 
+/**
+ * @brief Advance the simulation by a time interval dt.
+ * 
+ * @param dt  Time step (seconds) over which to advance the system.
+ */
 void Universe::step(double dt){
     int n = stars.size();
 
@@ -55,6 +60,9 @@ void Universe::step(double dt){
             }
 }
 
+/**
+ * @brief Just a accessor that allows returns a 2D vector (include all stars' positions)
+ */
 std::vector<std::vector<double>> Universe::get_positions() const{
     std::vector<std::vector<double>> positions;
     positions.reserve(stars.size());

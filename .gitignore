@@ -4,6 +4,12 @@ cpp_engine/out/
 CMakeCache.txt
 CMakeFiles
 
+# CMake Presets
+CMakePresets.json
+
+# Some third party files
+third_party/
+
 # Compiled dynamic libraries 
 *.dll
 *.so

@@ -11,3 +11,5 @@ PYBIND11_MODULE(nbody_core, m){
         .def("step", &nbody::Universe::step)
         .def("get_positions", &nbody::Universe::get_positions);
 }
+
+// "Python3_EXECUTABLE": "${sourceDir}/../python_server/.venv/Scripts/python.exe",可能是我这里写错了
